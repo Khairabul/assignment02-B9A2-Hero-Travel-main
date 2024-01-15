@@ -1,0 +1,71 @@
+/* nav styles */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 70px;
+}
+
+.nav-title {
+    display: flex;
+}
+
+.nav-text {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 20px;
+    text-align: center;
+}
+
+.voyage {
+    color: #FF5400;
+}
+
+.home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* banner styles */
+
+.banner-container {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    margin: -20px 90px;
+    border-radius: 16px;
+}
+
+.banner-title {
+    align-items: center;
+    padding-top: 40px;
+}
+
+.banner-title h2 {
+    color: #FFF;
+    font-family: Mulish;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-title p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;    
+}
