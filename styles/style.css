@@ -1,10 +1,29 @@
+/* shared styles for body */
+
+.button {
+    width: 174px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
 /* nav styles */
 
 .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 70px;
+    margin: 40px 80px;
+    /* margin-left: 80px; */
 }
 
 .nav-title {
@@ -19,6 +38,7 @@
 .nav-menu {
     display: flex;
     list-style: none;
+    font-family: Mulish;
     font-size: 18px;
     gap: 20px;
     text-align: center;
@@ -67,5 +87,425 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;    
+    line-height: 26px;
+}
+
+form {
+    align-items: center;
+    padding: 6px 10px;
+    margin-top: 40px;
+    margin-left: 120px;
+    border-radius: 8px;
+    margin-right: 120px;
+    background: rgba(255, 255, 255, 0.30);
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.form input {
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 16px 24px;
+}
+
+/* Popular tours styles */
+
+.tours-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 75px;
+    margin-left: 90px;
+    gap: 30px;
+}
+
+.tour-text {
+    margin-top: 100px;
+}
+
+.tours-text h2 {
+    color: #131318;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tours-text p {
+    color: #5A5A5D;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 530px;
+}
+
+.tours-li {
+    color: #5A5A5D;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 530px;
+}
+
+.tours-text li {
+    padding: 3px;
+}
+
+.tour-image {
+    margin-top: 100px;
+    border-radius: 16px;
+}
+
+/* Destination styles */
+
+.destination-container,
+.choose-text,
+.choose,
+.newsletter {
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.destination-container h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-container p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.destination-image {
+
+    margin: 48px 90px;
+}
+
+.image-line-1,
+.image-line-2,
+.image-line-3 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.maldives,
+.indonesia,
+.srilanka,
+.america,
+.kashmir,
+.bangladesh,
+.bandarban {
+    position: relative;
+}
+
+.maldives-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 14rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.indonesia-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 12rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.srilanka-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 8rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.america-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 8rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.kashmir-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 4rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.bangladesh-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 8rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.bandarban-text {
+    position: absolute;
+    align-items: center;
+    font-family: Mulish;
+    left: 14rem;
+    top: 6rem;
+    padding: 0 1rem;
+    color: white;
+    font-size: 28px;
+}
+
+.choose-text h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose-text p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.hotel,
+.service,
+.best-price {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    margin-bottom: 24px;
+    width: 573px;
+    height: 235px;
+    gap: 24px;
+}
+
+.choose {
+    display: flex;
+    gap: 24px;
+}
+
+.choose,
+.price h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.choose,
+.price p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.best-price {
+    align-items: center;
+    width: 573px;
+    margin: 0px 350px;
+}
+
+.newsletter {
+    display: flex;
+    gap: 24px;
+}
+
+.newsletter h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subscribe {
+    border-radius: 16px;
+    border: 2px solid orange;
+    width: 500px;
+    height: 395px;
+    padding-top: 24px;
+    padding-left: 24px;
+}
+
+.subscribe p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.subscribe input {
+    display: block;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    width: 393px;
+    height: 52px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.subscribe .btn-subscribe {
+    width: 393px;
+    height: 52px;
+    /* display: block; */
+    border-radius: 8px;
+}
+
+.discount {
+    border-radius: 16px;
+    background: lightgray;
+    width: 672px;
+    height: 422px;
+}
+
+.save {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    /* align-items: center; */
+    margin-top: -200px;
+    margin-left: 340px;
+}
+
+.save h3 {
+    color: white;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.save h1 {
+    color: white;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+/* footer styles */
+footer {
+    /* width: 1440px;
+    height: 502px; */
+    
+    background: rgba(233, 68, 68, 0.05);
+    margin-top:100px;
+    padding-bottom:60px;
+}
+
+.footer-title {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+    padding-top:60px ;  
+    gap: 20px;  
+}
+
+footer p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: 140px;
+    margin-right: 140px;
+    height: 1px;
+}
+
+footer h4 {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
