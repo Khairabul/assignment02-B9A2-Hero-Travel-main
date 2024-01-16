@@ -743,7 +743,6 @@ footer h4 {
     .maldives-text,
     .indonesia-text,
     .srilanka-text,
-    .america-text,
     .kashmir-text,
     .bandarban-text,
     .bangladesh-text {
@@ -755,6 +754,16 @@ footer h4 {
         padding: 0 1rem;
         color: white;
         font-size: 28px;
+    }
+    .america-text{
+        position: absolute;
+        align-items: center;
+        font-family: Mulish;
+        left: 3rem;
+        top: 3rem;
+        padding: 0 1rem;
+        color: white;
+        font-size: 28px; 
     }
 
     .choose-text h2 {
@@ -841,6 +850,7 @@ footer h4 {
     footer {
         width: 375px;
         height: 309px;
+        background: rgba(19, 19, 24, 0.05);
     }
     .footer-para {
         color: #5A5A5D;
