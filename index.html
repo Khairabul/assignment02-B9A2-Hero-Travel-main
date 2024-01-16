@@ -17,7 +17,7 @@
     <header>
         <nav class="nav-container">
             <div class="nav-title">
-                <img src="Images/icons8-travelling-64.png" alt="" width="100px" height="100px">
+                <img class="nav-logo" src="Images/icons8-travelling-64.png" alt="" width="100px" height="100px">
                 <h2 class="nav-text">Visions of <span class="voyage">Voyage</span> </h2>
             </div>
             <div>
@@ -39,10 +39,8 @@
                 families.</p>
         </div>
         <div class="form">
-            <form action="">
-                <!-- <input type="text" placeholder="Where go" name="search"> -->
-                <!-- <input type="text" placeholder="When " name="search">
-                <input type="text" placeholder="Select Type" name="search"> -->
+            <form class="form-select" action="">
+                
                 <select id="where">
                     <option value="when">Where go</option>
                     <option value="">Kashmir</option>                    
@@ -62,24 +60,27 @@
     </section>
     <section class="tours-container">
         <div class="tours-text">
-            <h2>Our Popular Tours</h2>
-            <p>Experience the trip of a lifetime making unforgettable memories <br> and creating stories to share with
-                the ones you love through our <br> expert travel designers and global network of local experts.
-                <li class="tours-li">You’re busy with life and family, so hand over all the travel planning details to
-                    our team of
-                    experts.</li>
-                <li class="tours-li">You have myriad ideas to wrangle. Let our process get at the heart of what would
-                    make your trip
-                    perfect.</li>
-                <li class="tours-li"> There are no do-overs. We take the guesswork out of traveling with our global
-                    network of providers.
-                </li>
-            <p>Looking for an immersive experience for your next trip? Download our complimentary eBook,13 Culturally
+            <h2 class="tours-text-h2">Our Popular Tours</h2>
+            <p class="tours-para">Experience the trip of a lifetime making unforgettable memories <br> and creating stories to share with
+                the ones you love through our <br> expert travel designers and global network of local experts.</p>
+                <div class="tours-li">
+                    <li >You’re busy with life and family, so hand over all the travel planning details to
+                        our team of
+                        experts.</li>
+                    <li >You have myriad ideas to wrangle. Let our process get at the heart of what would
+                        make your trip
+                        perfect.</li>
+                    <li > There are no do-overs. We take the guesswork out of traveling with our global
+                        network of providers.
+                    </li>
+                </div>
+            <p class="tours-para">Looking for an immersive experience for your next trip? Download our complimentary eBook,13 Culturally
                 Immersive Experiences to Ignite Your Wanderlust, and design your next vacation around engaging with
                 passionate . </p>
             </p>
-            <button class="button" type="button">Read More</button>
+            <button class="button tour-button" type="button">Read More</button>
         </div>
+        
         <div class="tours-image">
             <img src="Images/Rectangle 4.png" alt="">
         </div>
@@ -176,6 +177,7 @@
             <input type="Name" placeholder="Enter your name">
             <input type="email" name="" id="" placeholder="Enter your email">
             <button class="button btn-subscribe" type="submit">Subscribe</button>
+            
         </div>
         <div class="discount">
             <img src="Images/Rectangle 8 (1).png" alt="">

@@ -53,7 +53,8 @@
     font-size: 18px;
     font-weight: 700;
 }
-.bar{
+
+.bar {
     display: none;
 }
 
@@ -81,6 +82,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    cursor: pointer;
 }
 
 .banner-title p {
@@ -91,7 +93,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    cursor: pointer;
 }
+
 form {
     align-items: center;
     padding: 6px 10px;
@@ -106,6 +110,7 @@ form {
     align-items: flex-start;
     gap: 24px;
 }
+
 form select {
     width: 174px;
     height: 56px;
@@ -164,11 +169,7 @@ form select {
     gap: 30px;
 }
 
-.tour-text {
-    margin-top: 100px;
-}
-
-.tours-text h2 {
+.tours-text-h2 {
     color: #131318;
     /* text-align: center; */
     font-family: Mulish;
@@ -178,7 +179,7 @@ form select {
     line-height: normal;
 }
 
-.tours-text p {
+.tours-para {
     color: #5A5A5D;
     text-align: left;
     font-family: Mulish;
@@ -198,15 +199,13 @@ form select {
     font-weight: 400;
     line-height: 26px;
     width: 530px;
-}
-
-.tours-text li {
     padding: 3px;
 }
 
-.tour-image {
+.tours-image {
     margin-top: 100px;
     border-radius: 16px;
+    /* width: 100%; */
 }
 
 /*----------Destination styles----------- */
@@ -241,7 +240,6 @@ form select {
 }
 
 .destination-image {
-
     margin: 48px 90px;
 }
 
@@ -363,12 +361,32 @@ form select {
     margin-bottom: 48px;
 }
 
-.hotel,
-.service,
-.best-price {
+.hotel {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    margin-bottom: 24px;
+    width: 573px;
+    height: 235px;
+    gap: 24px;
+}
+
+.service {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+    margin-bottom: 24px;
+    width: 573px;
+    height: 235px;
+    gap: 24px;
+}
+
+.best-price {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(233, 68, 68, 0.05);
     padding: 32px;
     margin-bottom: 24px;
     width: 573px;
@@ -407,6 +425,7 @@ form select {
     width: 573px;
     margin: 0px 350px;
 }
+
 /* --------Newsletter styles------------ */
 .newsletter {
     display: flex;
@@ -438,7 +457,7 @@ form select {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    
+
 }
 
 .subscribe input {
@@ -461,7 +480,6 @@ form select {
 
 .discount {
     border-radius: 16px;
-    background: lightgray;
     width: 672px;
     height: 422px;
 }
@@ -472,7 +490,6 @@ form select {
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
-    /* align-items: center; */
     margin-top: -200px;
     margin-left: 340px;
 }
@@ -502,8 +519,9 @@ form select {
 /*--------- footer styles---------- */
 
 footer {
-     
-    background: rgba(233, 68, 68, 0.05);
+
+    /* background: rgba(233, 68, 68, 0.05); */
+    background: rgba(19, 19, 24, 0.05);
     margin-top: 100px;
     padding-bottom: 60px;
 }
@@ -547,4 +565,289 @@ footer h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* -----------------Responsive styles--------------- */
+
+/* --------------------Mobile device---------------- */
+
+@media screen and (max-width:600px) {
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        height: 64px;
+        margin: 10px 20px;
+    }
+
+    .nav-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-title {
+        align-items: center;
+    }
+
+    .nav-text {
+        font-size: 21.543px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        margin-right: 45px;
+    }
+
+    .banner-container {
+        background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 483px;
+        margin: 20px 20px;
+        border-radius: 16px;
+    }
+
+    .banner-title h2 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .banner-title p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .form-select {
+        align-items: center;
+        margin-left: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1px;
+        margin-top: 10px;
+    }
+
+    .form-select select {
+        width: 255px;
+        height: 42px;
+        margin: 10px;
+        flex-shrink: 0;
+    }
+
+    .form-button {
+        width: 255px;
+        height: 42px;
+        margin: 10px;
+    }
+
+    .tours-container {
+        flex-direction: column;
+
+    }
+
+    .tours-text {
+        width: 255px;
+        /* margin-left: -50px; */
+        margin-right: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tours-text-h2 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        
+    }
+
+    .tour-para {
+        align-items: center;
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;        
+        /* width: 335px; */
+        
+    }
+
+    .tours-li {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* margin: -30px; */
+    }
+
+    .tours-container img {
+        width: 335px;
+        height: 176px;
+        margin-left: -10px;
+    }
+
+    .tour-button {
+        width: 174px;
+        height: 52px;
+        /* margin-right: -200px; */
+    }
+
+    .destination-container {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .destination-title {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: normal;
+    }
+
+    .destination-image {
+        margin-left: 20px;
+        margin-right: 5px;
+    }
+
+    .image-line-1,
+    .image-line-2,
+    .image-line-3 {
+        flex-direction: column;
+    }
+
+    .destination-image img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .maldives-text,
+    .indonesia-text,
+    .srilanka-text,
+    .america-text,
+    .kashmir-text,
+    .bandarban-text,
+    .bangladesh-text {
+        position: absolute;
+        align-items: center;
+        font-family: Mulish;
+        left: 5rem;
+        top: 3rem;
+        padding: 0 1rem;
+        color: white;
+        font-size: 28px;
+    }
+
+    .choose-text h2 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .choose {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .hotel,
+    .service {
+        width: 260px;
+        height: 289px;
+    }
+
+    .best-price {
+        width: 260px;
+        height: 289px;
+        margin: 20px;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .subscribe {
+        width: 300px;
+        height: 380px;
+    }
+
+    .newsletter input {
+        width: 100px;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .subscribe .btn-subscribe {
+        width: 280px;
+        height: 52px;
+    }
+
+    .discount img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .save {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 10.569px;
+        background: #FF5400;
+        margin-left: 115px;
+        margin-top: -140px;
+    }
+
+    .save h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 15.854px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .save h1 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .footer {
+        width: 375px;
+        height: 309px;
+    }
+
+    .footer hr {
+        width: 335px;
+        height: 1px;
+    }
+
+
 }
