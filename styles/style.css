@@ -53,6 +53,9 @@
     font-size: 18px;
     font-weight: 700;
 }
+.bar{
+    display: none;
+}
 
 /* banner styles */
 
@@ -89,7 +92,6 @@
     font-weight: 400;
     line-height: 26px;
 }
-
 form {
     align-items: center;
     padding: 6px 10px;
@@ -99,8 +101,44 @@ form {
     margin-right: 120px;
     background: rgba(255, 255, 255, 0.30);
     font-size: 17px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+form select {
+    width: 174px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    color: grey;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     cursor: pointer;
+    background-color: white;
+    margin-left: 24px;
+}
 
+.form-button {
+    width: 174px;
+    height: 56px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    margin-right: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 24px;
+    cursor: pointer;
 }
 
 .form input {
@@ -114,7 +152,7 @@ form {
     margin: 16px 24px;
 }
 
-/* Popular tours styles */
+/*---------- Popular tours styles---------- */
 
 .tours-container {
     display: flex;
@@ -171,7 +209,7 @@ form {
     border-radius: 16px;
 }
 
-/* Destination styles */
+/*----------Destination styles----------- */
 
 .destination-container,
 .choose-text,
@@ -302,6 +340,8 @@ form {
     font-size: 28px;
 }
 
+/* --------Why choose us styles---------- */
+
 .choose-text h2 {
     color: #131318;
     text-align: center;
@@ -367,7 +407,7 @@ form {
     width: 573px;
     margin: 0px 350px;
 }
-
+/* --------Newsletter styles------------ */
 .newsletter {
     display: flex;
     gap: 24px;
@@ -398,7 +438,7 @@ form {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+    
 }
 
 .subscribe input {
@@ -459,22 +499,21 @@ form {
     padding-bottom: 30px;
 }
 
-/* footer styles */
+/*--------- footer styles---------- */
+
 footer {
-    /* width: 1440px;
-    height: 502px; */
-    
+     
     background: rgba(233, 68, 68, 0.05);
-    margin-top:100px;
-    padding-bottom:60px;
+    margin-top: 100px;
+    padding-bottom: 60px;
 }
 
 .footer-title {
-    display: flex; 
-    justify-content: center; 
-    align-items: center;  
-    padding-top:60px ;  
-    gap: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 20px;
 }
 
 footer p {
